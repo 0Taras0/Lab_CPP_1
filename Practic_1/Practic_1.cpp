@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define Task_1
+#define Task_4
 
 int main()
 {

@@ -19,12 +19,15 @@ void Task4::InputWorkers()
 		getline(cin, worker.POS);
 		cout << i + 1 << ". " << "Enter worker's year of employment: ";
 		cin >> worker.YEAR;
+		cin.ignore();
 		cout << i + 1 << ". " << "Enter worker's month of employment: ";
 		cin >> worker.MONTH;
+		cin.ignore();
 		workers->push_back(worker);
 		cout << endl;
 	}
 }
+
 
 void Task4::SortWorkers()
 {
